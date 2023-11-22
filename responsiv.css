@@ -145,3 +145,60 @@
 		margin-left: 5px;
 	}
 }
+
+@media (max-width: 450px) {
+	.judul {
+		font-size: 15px;
+		margin-left: 5px;
+	}
+
+	.menu a {
+		font-size: 10px;
+	}
+
+	.menu {
+		justify-content: space-evenly;
+		margin-left: 50px;
+	}
+
+	article h2 {
+		font-size: 20px;
+	}
+
+	article p {
+		font-size: 13px;
+	}
+
+	.left1 h3 {
+		font-size: 15px;
+	}
+
+	.left1 p {
+		font-size: 10px;
+	}
+
+	.row h3 {
+		font-size: 15px;
+	}
+
+	.row p {
+		font-size: 10px;
+	}
+
+	.left2 {
+/*		margin-left: 40px;*/
+	}
+
+	.left2 h3 {
+		font-size: 15px;
+	}
+
+	.left2 p {
+		font-size: 10px;
+	}
+
+	.left3 {
+/*		right: -150px;*/
+	}
+}
+

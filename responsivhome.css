@@ -1,9 +1,32 @@
-@media (max-width: 670px) {
+@media (max-width: 450px) {
 	/*.space {
 		position: absolute;
 	}
 	article {
 		position: relative;
 	}*/
+
+	.judul {
+		font-size: 15px;
+		margin-left: 5px;
+	}
+
+	.menu a {
+		font-size: 10px;
+	}
+
+	.menu {
+		justify-content: space-evenly;
+		margin-left: 50px;
+	}
+
+	article h1 {
+		font-size: 30px;
+	}
+
+	.me {
+		width: 70px;
+		font-size: 8px;
+	}
 }
 

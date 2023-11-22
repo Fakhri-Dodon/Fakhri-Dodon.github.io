@@ -56,3 +56,43 @@
 		margin-top: 15px;
 	}
 }
+
+@media (max-width: 450px) {
+	.judul {
+		font-size: 15px;
+		margin-left: 15px;
+	}
+
+	.menu a {
+		font-size: 10px;
+	}
+
+	.menu {
+		justify-content: space-evenly;
+/*		margin-left: 50px;*/
+		margin-top: 8px;
+	}
+
+	main {
+		margin-top: 20px;
+	}
+
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contents img {
+		flex-wrap: wrap;
+		height: 80px;
+		width: 150px;
+	}
+
+	.contents {
+		height: 200px;
+	}
+
+	.jarak {
+		margin-top: 20px;
+	}
+}
