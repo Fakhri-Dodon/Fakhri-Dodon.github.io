@@ -1,3 +1,13 @@
+@media (max-width: 1380px) {
+	#check {
+		display: none;
+	}
+
+	.nav2 {
+		display: none;
+	}
+}
+
 @media (max-width: 1050px) {
 	main {
 		display: flex;
@@ -18,6 +28,14 @@
 		display: flex;
 		justify-content: center;
 		width: 100%;
+	}
+
+	#check {
+		display: none;
+	}
+
+	.nav2 {
+		display: none;
 	}
 }
 
@@ -63,7 +81,7 @@
 	}
 }
 
-@media (max-width: 670px) {
+@media (max-width: 678px) {
 	.menu {
 /*		margin-left: 30px;*/
 		margin-top: 5px;
@@ -99,5 +117,31 @@
 
 	.menu a {
 		font-size: 15px;
+	}
+
+	.judul a {
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 530px) {
+	/*#check {
+		display: block;
+		color: orange;
+		background-color: orange;
+	}
+
+	#check:checked ~
+
+	.menu {
+		display: none;
+	}
+
+	.nav2 {
+		display: block;
+	}*/
+
+	.judul a {
+		margin-left: 5px;
 	}
 }
