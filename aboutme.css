@@ -1,0 +1,180 @@
+  body {
+	background-image: url(background.jpg);
+	height: 600px;
+}
+
+/*navbar*/
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.judul a {
+	text-decoration: none;
+	color: orange;
+	font-size: 35px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.menu {
+/*	margin-left: 580px;*/
+	margin-right: 30px;
+	margin-top: 7px;
+}
+
+.menu a {
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.about {
+	color: white;
+}
+
+.portofolio {
+	color: orange;
+}
+
+.contact {
+	color: white;
+	width: auto;
+
+}
+/*navbar*/
+
+/*judul*/
+h1 {
+	color: orange;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 40px;
+}
+/*judul*/
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+
+/*aside*/
+aside {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.gambar {
+	height: 300px;
+	width: 300px;
+/*	margin-left: 250px;*/
+	border-radius: 10px;
+}
+/*aside*/
+
+/*article*/
+article {
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.penting {
+	color: orange;
+}
+
+.container {
+	display: flex;
+}
+
+.row {
+	display: block;
+	margin-top: 25px;
+}
+
+.left1 {
+	margin-right: 180px;
+}
+
+h3 {
+	text-align: center;
+	color: orange;
+/*	margin-left: 80px;*/
+	margin-bottom: 0;
+/*	margin-top: 25px;*/
+}
+
+p {
+	margin: 0;
+	margin-top: -10px;
+}
+
+.container2 {
+	display: flex;
+}
+
+.left2 {
+	margin-left: 70px;
+	margin-right: 190px;
+}
+/*article*/
+
+hr {
+	margin-bottom: 0;
+}
+
+/*footer*/
+footer {
+}
+
+.footer h1 {
+	color: orange;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 40px;
+	display: block;
+}
+
+.top {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.html {
+	height: 120px;
+	width: 100px;
+	padding-right: 20px;
+}
+
+.css {
+	height: 110px;
+	width: 90px;
+	padding-left: 20px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.js {
+	height: 130px;
+	width: 100px;
+/*	margin-left: 620px;*/
+	margin-bottom: 40px;
+}
+
+.pfooter {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}

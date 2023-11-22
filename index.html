@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="responsivhome.css">
+
+	<title>Home</title>
+</head>
+<body>
+	<nav class="navbar">
+		<a href="home.html" class="judul">Fakhri</a>
+		<div class="menu">
+			<a href="aboutme.html" class="about">About Me</a>
+			<a href="portofolio.html" class="portofolio">Portofolio</a>
+			<a href="contactme.html" class="contact">Contact Me</a>
+		</div>
+	</nav>
+	<main>
+		<div class="space">
+			
+		</div>
+		<article>		
+			<h1><span class="im">I'm a</span><br>Programmer<span class="titik">.</span></h1>
+			<button class="me" onclick="my()">contact me</button>			
+		</article>
+	</main>
+	<script type="text/javascript">
+		// const tamu = prompt("Siapakah Anda?");
+		function my() {
+			prompt("Masukan nomor telpon atau email anda");
+		}
+		// alert("Welcome to my portofolio " + )
+
+		// $(document).ready(function () {
+
+		window.onload = function () {
+			Swal.fire({
+			  title: "Welcome to my portofolio!",
+			  width: 600,
+			  padding: "3em",
+			  color: "#716add",
+			  background: "#fff url(/images/trees.png)",
+			  backdrop: `
+			    rgba(0,0,123,0.4)
+			    url("/images/nyan-cat.gif")
+			    left top
+			    no-repeat
+			  `
+			});	
+		}
+		// });
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+</body>
+</html>

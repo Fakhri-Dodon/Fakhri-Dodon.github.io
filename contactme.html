@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="contactme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<title>Contact Me</title>
+</head>
+<body>
+	<nav class="navbar">
+		<a href="home.html" class="judul">Fakhri</a>
+		<div class="menu">
+			<a href="aboutme.html" class="about">About Me</a>
+			<a href="portofolio.html" class="portofolio">Portofolio</a>
+			<a href="contactme.html" class="contact">Contact Me</a>
+		</div>
+	</nav>
+	<h1>Contact Me</h1>
+	<main>
+		<div class="container">
+			<div id="card">
+	            <div id="card-title">
+	                <h2>Pesan</h2>
+	            </div>
+	            <div class="underline-title"></div>
+	            <form method="post" class="form" id="form">
+	                  <label for="user-email" style="padding-left: 30px; width: 100px; padding-top: 25px">Nama</label>
+	                  <div class="khusus">
+		                  <input
+		                   id="user-email"
+		                   class="form-content"
+		                   type="name"
+		                   name="name"
+		                   autocomplete="on"
+		                   required />         	
+	                  </div>
+	                   <!-- <div class="form-border"></div> -->
+	                   <label for="user-password" style="padding-left: 30px; width: 100px; padding-top: 10px">Email</label>
+	                   <div class="khusus">
+		                  <input
+		                   id="user-password"
+		                   class="form-content"
+		                   type="email"
+		                   name="email"
+		                   autocomplete="on"
+		                   required />          	
+	                   </div>
+	                   <!-- <div class="form-border"></div> -->
+	                   	<div class="khusus_label">
+		                  	<label for="user-password" style="width: 100px;">Pesan</label>	
+	                   	</div>
+	                   <div class="khusus">
+		                 	<input type="textarea" name="Pesan" class="form-content" autocomplete="on" id="textarea"> 
+	                    </div>
+	                   <!-- <div class="form-border"></div> -->
+	                   <div class="wadah">
+	                   		<input id="submit-btn" type="submit" name="submit" value="SUBMIT" />          	
+	                   </div>
+	            </form>      
+	        </div>
+	        <div class="contents">
+	        	<div class="wa">
+	        		<a href="https://wa.me/+6283804549773" target="_blank">
+	        			<i class="fa-brands fa-whatsapp fa-lg fa-flip"></i>
+	        			08380454773
+	        		</a>
+	        	</div>
+	        	<div class="ig">
+	        		<a href="https://www.instagram.com/fakhri_dodon/" target="_blank">
+	        			<i class="fa-brands fa-instagram fa-flip fa-lg"></i>
+	        			@fakhri_dodon
+	        		</a>
+	        	</div>
+	        	<div class="github">
+	        		<a href="https://github.com/Fakhri-Dodon" target="_blank">
+	        			<i class="fa-brands fa-github fa-flip fa-lg"></i>
+	        			Fakhri_Dodon
+	        		</a>
+	        	</div>
+	        </div>
+			<!--  <div class="contents">
+	        	<div class="wa">
+	        		<a href=""><i class="fa-brands fa-whatsapp fa-lg fa-flip"></i>08380454773</a>
+	        	</div>
+	        	<div class="ig">
+	        		<a href=""><i class="fa-brands fa-instagram fa-flip fa-lg"></i>@fakhri_dodon</a>
+	        	</div>
+	        	<div class="github">
+	        		<a href=""><i class="fa-brands fa-github fa-flip fa-lg"></i>fakhri_dodon</a>
+	        	</div>
+	        </div> -->
+		</div>
+	</main>
+	<script type="text/javascript">
+		const kirim = getElementByid('form')
+
+		function mengirim() {
+			
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body {
+	background-image: url(background.jpg);
+}
+
+/*navbar*/
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.judul {
+	text-decoration: none;
+	color: orange;
+	font-size: 35px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.menu {
+/*	margin-left: 600px;*/
+	margin-top: 7px;
+}
+
+.menu a {
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 70px;
+}
+
+.about {
+	color: white;
+}
+
+.portofolio {
+	color: orange;
+}
+
+.contact {
+	color: white;
+}
+/*navbar*/
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header h1 {
+	text-align: center;
+	color: orange;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.contents {
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/*justify-content: center;
+	text-align: center;*/
+	color: white;
+	border: 2px solid #bc8cff;
+	width: 40%;
+	height: 400px;
+}
+
+.article {
+	display: flex;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+}
+
+.aside {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.serti {
+	margin-top: 0px;
+}
+
+.gambar {
+	margin-top: 0px;
+}
+
+/*.article {
+	display: flex;
+	text-align: center;
+}*/
+
+.contents img {
+	height: 250px;
+	width: 400px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.contents p {
+	margin-top: 5px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.underline-title {
+	background: -webkit-linear-gradient(right, #bc8cff, #bc8cff);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 500px;
+}
+
+span {
+	color: orange;
+}
