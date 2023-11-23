@@ -1,4 +1,4 @@
-body {
+ body {
 	background-image: url(background.jpg);
 }
 
@@ -6,6 +6,23 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+/*	padding: 1.3rem 10%;*/
+	z-index: 100;
+}
+
+nav:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+/*	backdrop-filter: blur(50px);*/
+	z-index: -1;
 }
 
 .judul {
@@ -20,7 +37,7 @@ nav {
 /*	margin-left: 600px;*/
 	margin-top: 7px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 420px;
 }
 
@@ -28,6 +45,31 @@ nav {
 	text-decoration: none;
 	font-size: 20px;
 /*	margin-left: 70px;*/
+	font-weight: 500;
+/*	margin-left: 2.5rem;*/
+	transition: .50s ease;
+}
+
+.menu a:hover {
+	color: red;
+	padding-right: 10px;
+}
+
+#check {
+	display: none;
+}
+
+/*.menu2 {
+	position: absolute;
+	right: 5%;
+	color: white;
+	font-size: 2rem;
+	cursor: pointer;
+	display: none;
+}*/
+
+.drop {
+	display: none;
 }
 
 .about {
@@ -46,13 +88,16 @@ nav {
 
 main {
 	display: flex;
+	align-items: center;
+/*	height: 250px;*/
+	justify-content: center;
 }
 
 h1 {
 	color: white;
 	font-size: 80px;
 	margin-bottom: 0;
-	margin-top: 180px;
+	padding-top: 180px;
 /*	margin-left: 200px;*/
 	letter-spacing: 3px;
 }
@@ -67,6 +112,9 @@ h1 {
 
 article {
 	margin-left: 0;
+	position: absolute;
+	margin-top: 200px;
+	text-align: center;
 }
 
 .me {
@@ -80,4 +128,8 @@ article {
 
 .space {
 	width: 15%;
+}
+
+.navbar {
+	position: relative;
 }

@@ -144,6 +144,10 @@
 	.judul a {
 		margin-left: 5px;
 	}
+
+	.header {
+		padding: 1.3rem 5%;
+	}
 }
 
 @media (max-width: 450px) {
@@ -152,14 +156,82 @@
 		margin-left: 5px;
 	}
 
+/*	#check {
+		display: ;
+	}*/
+
 	.menu a {
 		font-size: 10px;
 	}
 
 	.menu {
 		justify-content: space-evenly;
-		margin-left: 50px;
+/*		margin-left: 50px;*/
 	}
+
+	.drop {
+		display: inline-flex;
+		margin-top: 5px;
+		margin-right: 10px;
+	}
+
+	#check:checked~.drop #icon-menu {
+		display: none;
+	}
+
+	.drop #close-menu {
+		display: none;
+	}
+
+	#check:checked~.drop #close-menu {
+		display: block;
+	}
+
+	.menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: 0;
+		background-color: rgb(225, 225, 225, .15);
+		backdrop-filter: blur(50px);
+		overflow: hidden;
+		transition: .2s ease;
+	}
+
+	#check:checked~.menu {
+		height: 70px;
+		border-radius: 10px;
+	}
+
+	.menu a {
+		font-size: 10px;
+		display: block;
+		font-size: 1rem;
+		margin: 1.5rem 0;
+		text-align: center;
+		transform: translateY(-50px);
+		transition: .2s ease;
+	}
+
+	#check:checked~.menu a {
+		transform: translateY(0);
+	}
+
+	.menu {
+		justify-content: space-evenly;
+/*		margin-left: 50px;*/
+	}
+
+	article h1 {
+		font-size: 30px;
+	}
+
+	/*.me {
+		width: 70px;
+		font-size: 8px;
+	}*/
+}
 
 	article h2 {
 		font-size: 20px;
