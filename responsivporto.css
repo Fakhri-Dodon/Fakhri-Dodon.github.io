@@ -70,6 +70,7 @@
 	.drop {
 		display: inline-flex;
 		margin-right: 10px;
+		margin-top: 10px;
 	}
 
 	.drop #icon-menu {
