@@ -2,6 +2,16 @@
 	.header {
 		padding: 1.3rem 5%;
 	}
+
+	.swal2-popup {
+		width: 400px!important;
+		height: 180px!important;
+		padding: 30px 30px 20px 30px!important;
+	}
+
+	.swal2-title {
+		padding-top: 0px!important;
+	}
 }
 
 @media (max-width: 450px) {
@@ -77,6 +87,17 @@
 	.me {
 		width: 70px;
 		font-size: 8px;
+	}
+
+	.swal2-popup {
+		width: 300px!important;
+		height: 160px!important;
+		padding: 30px 30px 20px 30px!important;
+	}
+
+	.swal2-title {
+		padding-top: 0px!important;
+		font-size: 25px!important;
 	}
 }
 
