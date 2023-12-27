@@ -140,6 +140,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 100px;
+	margin-top: 25px;
 }
 
 /*aside*/
@@ -193,11 +194,8 @@ h2 {
 	flex-direction: column;
 }
 
-.left1 {
-/*	margin-right: 180px;*/
-}
 
-h3 {
+h2 {
 	text-align: center;
 	color: orange;
 /*	margin-left: 80px;*/
@@ -228,8 +226,6 @@ hr {
 }
 
 /*footer*/
-footer {
-}
 
 .footer h1 {
 	color: orange;
@@ -241,32 +237,62 @@ footer {
 
 .top {
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	display: flex;
+}
+
+.bhtml {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bhtml h2{
+	margin: 0;
+	color: orange;
 }
 
 .html {
 	height: 120px;
 	width: 100px;
-	padding-right: 20px;
+/*	padding-right: 20px;*/
+}
+
+.bcss {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bcss h2{
+	margin: 0;
+	color: orange;
 }
 
 .css {
 	height: 110px;
 	width: 90px;
-	padding-left: 20px;
+/*	padding-left: 20px;*/
 }
 
-.bottom {
+.bjs {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+}
+
+.bjs h2{
+	margin: 0;
+	color: orange;
 }
 
 .js {
-	height: 130px;
+	height: 115px;
 	width: 100px;
 /*	margin-left: 620px;*/
-	margin-bottom: 40px;
 }
 
 .pfooter {
